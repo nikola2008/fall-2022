@@ -9,7 +9,7 @@ print("sine")
 print("cosine")
 print("tangent")
 
-selection = input("yor choice")
+selection = input("your choice")
 if selection in ("sine", "cosine", "tangent"):
     value = float(input("Enter the angle and radians: "))
     if selection == "sine":
@@ -17,4 +17,6 @@ if selection in ("sine", "cosine", "tangent"):
     elif seletion == "cosine":
         printComputation(seletion, value, math.cos(value))
     elif seletion == "tangent":
-        printComputation()
+        printComputation(seletion, value, math.tan(value))
+else:
+    print("Just plain unacceptable")
