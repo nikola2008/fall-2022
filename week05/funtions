@@ -1,0 +1,20 @@
+import math
+
+def printComputation(kind, value, answer):
+    print(f"the {kind} of {value} is {answer}")
+
+
+print("Pick an operation:")
+print("sine")
+print("cosine")
+print("tangent")
+
+selection = input("yor choice")
+if selection in ("sine", "cosine", "tangent"):
+    value = float(input("Enter the angle and radians: "))
+    if selection == "sine":
+        printComputation(seletion, value, math.sin(value))
+    elif seletion == "cosine":
+        printComputation(seletion, value, math.cos(value))
+    elif seletion == "tangent":
+        printComputation()

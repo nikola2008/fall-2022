@@ -16,11 +16,11 @@ if answer == "5":
     score = score + 1
     print("Oh your smart")
 else:
-    print("YOUR AN IDIOT YOU LIVE IN  MICHIGAN THERES 5")
+    print("Wrong theres 5")
 print("your score is ", score)
 
 answer =input("what kind of gas does a yamaha 125 take, mixed or unleaded? ")
 if answer == "unleaded":
     print("right")
 else:
-    print("wrong never fuel a 125 ")
+    print("wrong, never fuel a 125 ")
