@@ -1,4 +1,4 @@
-score = 0
+
 answer = input("what is the color of the sky? " )
 if answer == "blue" or answer ==  "Blue":
     score = score + 1
